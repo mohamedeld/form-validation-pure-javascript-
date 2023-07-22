@@ -50,14 +50,14 @@ h2{
     border:2px solid #777;
 }
 
-.form-control.scuccess input{
-    border:2px solid var(--success-color);
+.form-control.success input{
+    border:2px solid var(--success-color) !important;
 }
 .form-control.error input{
     border:2px solid var(--error-color);
 }
-.form-controll small{
-    color:var(--error-color);
+.form-control small{
+    color:var(--error-color) !important;
     position:absolute;
     bottom:0;
     left:0;
